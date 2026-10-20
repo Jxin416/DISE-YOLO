@@ -1,0 +1,15 @@
+path: D:/YOLO/ultralytics-v8-3-161/datasets/images
+train: D:/YOLO/ultralytics-v8-3-161/datasets/train.txt  # 数据集路径下的train.txt
+val: D:/YOLO/ultralytics-v8-3-161/datasets/val.txt      # 数据集路径下的val.txt
+test: D:/YOLO/ultralytics-v8-3-161/datasets/test.txt    # 数据集路径下的test.txt
+
+
+#train: D:/YOLO/ultralytics-v8-3-161/dataset_split/images/train  # train images (relative to 'path') 4 images
+#val: D:/YOLO/ultralytics-v8-3-161/dataset_split/images/val  # val images (relative to 'path') 4 images
+
+nc: 5
+
+# class names
+names: ['person', 'bus', 'car', 'motorbike', 'bicycle']
+
+
